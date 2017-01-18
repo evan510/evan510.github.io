@@ -1,0 +1,25 @@
+h1{
+    font-family:inherit;
+    font-size: 30px;
+    font-weight:bold;
+    color:azure;
+    background-color: darkviolet;
+}
+div {
+    color: darkgreen;    
+}
+
+.title {
+    font-size: 30px;
+    color: darkslateblue;
+    
+}
+
+
+article{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: oblique;
+    font-weight: 500;
+    color:forestgreen;
+}

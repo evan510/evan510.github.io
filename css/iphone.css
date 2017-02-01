@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+.iphone { 
+    position: relative;
+    height: 500px;
+    width: 300px;
+    background-size: 500px;
+    border: 3px solid;
+    margin: 0px auto;
+}
+
+.iphone-img {
+    position: relative;
+    background-position: center;
+    background-image: url(iPhone-6S-Silver.png);
+    display: inline-block;
+    height: 500px;
+    width: 300px;
+    background-size: 500px;
+    border: 3px solid;
+    margin: 0px auto;
+}
+
+.btn {
+    position: absolute;
+    top: 437px;
+    left: 129px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: snow;
+    border: 3px solid gray;
+}
+
+.panel {
+    position: absolute;
+    top: 56px;
+    left: 38px;
+    width: 223px;
+    height: 375px;
+    background-color: black;
+}
+
+.body {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    width: 240px;
+    height: 481px;
+    border-radius: 30px;
+    background-color: white;
+    border: 5px solid gray;
+    box-shadow: -1px -1px 1px rgba(36, 35, 35, 0.96);
+}
+
+.btn1 {
+    position: absolute;
+    top: 57px;
+    left: 27px;
+    width: 4px;
+    height: 19px;
+    border-radius: 10px 0 0 10px;
+    background-color: gray;
+    border: 1px solid #6a6a6a;
+}
+
+.btn2 {
+    position: absolute;
+    top: 100px;
+    left: 27px;
+    width: 4px;
+    height: 30px;
+    border-radius: 10px 0 0 10px;
+    background-color: gray;
+    border: 1px solid #6a6a6a;
+}
+
+.btn3 {
+    position: absolute;
+    top: 144px;
+    left: 27px;
+    width: 4px;
+    height: 30px;
+    border-radius: 10px 0 0 10px;
+    background-color: gray;
+    border: 1px solid #6a6a6a;
+}
+
+.btn4 {
+    position: absolute;
+    top: 100px;
+    left: 269px;
+    width: 4px;
+    height: 30px;
+    border-radius: 0 10px 10px 0;
+    background-color: gray;
+    border: 1px solid #6a6a6a;
+}
+
+.cam {
+    position: absolute;
+    top: 21px;
+    left: 145px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: gray;
+    border: 2px solid #413f3f;
+}
+
+.sensor {
+    position: absolute;
+    top: 34px;
+    left: 103px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: black;
+    border: 2px solid gray;
+}
+
+.handset {
+    position: absolute;
+    top: 36px;
+    left: 133px;
+    width: 33px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #4e4b4b;
+    border: 2px solid #848383;
+}
+
+.test {
+    position: absolute;
+    top: 25px;
+    left: 180px;
+    width: 50px;
+    height: 20px;
+    -background-color: green;
+    color: red;
+}
+
+.row P{
+    font-size: 22px;
+    font-family: sans-serif;
+    color: green;
+    width: 180px;
+    margin: 0px auto;
+}
+

@@ -1,41 +1,57 @@
-h1 {
-    font-family: inherit;
+.jumbotron {
+    background-image: url(../index.png);
+}
+
+.jumbotron h1 {
+    text-align: center;
+    line-height: 130px;
+    height: 120px;
+    color: white;
+    float: sans-serif;
     font-size: 30px;
-    font-weight: bold;
-    color: azure;
-    background-color: darkviolet;
 }
 
-
-
-.title {
-    font-size: 30px;
-    color: darkslateblue;
+.jumbotron img {
+    padding: 5px;
+    width: 60%;
+    border-radius: 20px;
 }
 
-article {
+nav {
+    padding: 0;
+    margin: 0
+}
+
+nav>ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav>ul li {
+    height: 30px;
+    width: 200px;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 800;
+}
+
+li a {
+    font-size: 20px;
     font-family: sans-serif;
-    font-size: 16px;
-    font-style: oblique;
-    font-weight: 500;
-    color: forestgreen;
+    text-decoration: none;
+    color: white;
 }
 
-h2 {
-    font-size: 16px;
+.row {
+    width: 900px;
+    margin: auto;
+}
+
+.row p {
+    font-size: 20px;
     font-family: sans-serif;
-    font-style: oblique;
-    color:red;
-    background-color: aquamarine;
-    width: 33.33%;
-}
-
-.thumbnail{
-    width: 33.33%;
-    padding: 10px;
-    border: 3px solid #163b8e;
-    float: left;
-}
-.thumbnail_img {
-    width: 100%;
+    font-weight: 800;
+    color: darkblue;
 }

@@ -1,47 +1,6 @@
-.jumbotron {
-    background-image: url(../index.png);
-}
-
-.jumbotron h1 {
-    text-align: center;
-    line-height: 130px;
-    height: 120px;
-    color: white;
-    float: sans-serif;
-    font-size: 30px;
-}
-
-.jumbotron img {
-    padding: 5px;
-    width: 60%;
-    border-radius: 20px;
-}
-
-nav {
-    padding: 0;
-    margin: 0
-}
-
-nav>ul {
-    padding: 0;
-    margin: 0;
-}
-
-nav>ul li {
-    height: 30px;
-    width: 200px;
-    list-style: none;
-    display: inline-block;
-    text-align: center;
-    line-height: 30px;
-    font-weight: 800;
-}
-
-li a {
-    font-size: 20px;
-    font-family: sans-serif;
-    text-decoration: none;
-    color: white;
+body {
+    background: url(../index.png) no-repeat center center fixed;
+    background-size: cover;
 }
 
 .row {
@@ -49,9 +8,90 @@ li a {
     margin: auto;
 }
 
+header {
+    height: 50px;
+    background-color: black;
+}
+
+ul>li {
+    width: 180px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 800;
+}
+
+ul a:hover {
+    background-color: gray;
+}
+
+li a {
+    font-size: 20px;
+    font-family: cursive;
+    text-decoration: none;
+    color: white;
+}
+
+jumbotron {
+    background-size: cover;
+    height: 200px;
+}
+
+jumbotron h1 {
+    font-family: Arial;
+    text-align: center;
+    height: 50px;
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+}
+
 .row p {
     font-size: 20px;
     font-family: sans-serif;
     font-weight: 800;
     color: darkblue;
+}
+
+footer {
+    height: 45px;
+    background-color: black;
+    opacity:
+}
+
+footer>p {
+    color: white;
+    font-size: 16px;
+    font-family: cursive;
+    margin: 0 auto;
+}
+
+.thumbnail {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.thumbnail img {
+    width: 200px;
+    height: 200px;
+}
+
+.thumbnail p{
+    font-size: 20px;
+    font-family:cursive;
+    color: silver;
+}
+
+.gravatar {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.gravatar img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+section {
+    overflow: auto;
 }

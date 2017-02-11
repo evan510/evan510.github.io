@@ -1,12 +1,45 @@
-section {
-    height: 120px;
-    margin: 0 auto;
+.thumbnail {
+    width: 130px;
+    border: 2px solid red;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%
+}
+
+.header {
+    height: px;
+    border: 2px solid yellow;
     overflow: auto;
 }
 
-[class^="box"] {
+.row h1,
+h2,
+h3,
+h4,
+h5,
+.thumbnail {
+    color: white;
+    font-size: 20px;
+    margin: 2vh auto;
+}
+
+.header .row {
     width: calc(100%/3);
-    height: 100px;
-    background-color: gainsboro;
+    height: 180px;
     float: left;
+}
+
+.box {
+    height: 100px;
+}
+
+footer {
+    clear: both;
+}
+
+.s2 {
+    overflow: auto;
+    color: wheat;
 }

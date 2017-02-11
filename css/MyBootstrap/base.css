@@ -94,7 +94,7 @@ div {
 }
 
 .thumbnail {
-    border: 1px solid #ddd;
+    border: 0px solid #ddd;
     border-radius: 5px;
 }
 

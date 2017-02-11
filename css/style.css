@@ -8,10 +8,21 @@ body {
     margin: auto;
 }
 
-header {
-    height: 50px;
-    background-color: black;
+header .box1 {
+    background-image: url(https://source.unsplash.com/1366x768?);
+    height: 250px;
+    width: 100%;
+    float: left;
 }
+
+header .h1 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font: left;
+}
+
+.col-12 img {}
 
 ul>li {
     width: 180px;
@@ -75,15 +86,16 @@ footer>p {
     height: 200px;
 }
 
-.thumbnail p{
+.thumbnail p {
     font-size: 20px;
-    font-family:cursive;
+    font-family: cursive;
     color: silver;
 }
 
 .gravatar {
     text-align: center;
     margin: 0 auto;
+    clear: both;
 }
 
 .gravatar img {
@@ -92,6 +104,22 @@ footer>p {
     border-radius: 50%;
 }
 
-section {
-    overflow: auto;
+--.box {
+    height: 230px;
+    width: 280px;
+    background-color: lightblue;
+    position: absolute;
+    top: 290px;
+    left: 99px;
+    opacity: 0.6;
+}
+
+--.box:hover {
+    background-color: black;
+    color: aliceblue;
+}
+
+--.box:after {
+    content: 1112222;
+    color: white;
 }

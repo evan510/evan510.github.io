@@ -12,7 +12,23 @@
     background-color: white;
 }
 
-.iphone-img {
+.iphone-back {
+    position: relative;
+    height: 500px;
+    width: 300px;
+    background-size: 500px;
+    border: 1px solid;
+    margin: 0 auto;
+}
+
+.iphone-back img {
+    height: 100%;
+}
+
+
+/* 原版原圖*/
+
+--.iphone {
     position: relative;
     left: 10px;
     background-position: center;
@@ -146,9 +162,10 @@
 .row P {
     font-size: 22px;
     font-family: sans-serif;
-    color: green;
+    color: yellow;
     width: 180px;
-    margin: 0px auto;
+    margin: 0 auto;
+    text-align: center;
 }
 
 column h1 {
@@ -164,6 +181,8 @@ column h1:hover {
     color: red;
 }
 
+.row p {}
+
 .p {
     height: 120px;
     width: 100px;
@@ -175,4 +194,143 @@ column h1:hover {
     content: abcd;
     font-size: 16px;
     color: red;
+}
+
+.btn {
+    position: absolute;
+    top: 437px;
+    left: 129px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: snow;
+    border: 3px solid gray;
+}
+
+.b-top {
+    position: absolute;
+    top: 14px;
+    left: 28px;
+    width: 225px;
+    height: 40px;
+    border: 6px solid #d1d1d1;
+    border-radius: 30px 30px 0px 0;
+}
+
+.b-bottom {
+    position: absolute;
+    bottom: 9px;
+    left: 27px;
+    width: 228px;
+    height: 40px;
+    border: 6px solid #b1adad;
+    border-radius: 0 0 30px 30px;
+}
+
+.b-body {
+    position: absolute;
+    top: 12px;
+    left: 25px;
+    width: 232px;
+    height: 481px;
+    border-radius: 32px;
+    background-color: #e5e1e1;
+    border: 3px solid #959595;
+}
+
+.b-btn1 {
+    position: absolute;
+    top: 72px;
+    left: 257px;
+    width: 3px;
+    height: 19px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: gray;
+    border: 1px solid #6a6a6a;
+}
+
+.b-btn2 {
+    position: absolute;
+    top: 114px;
+    left: 257px;
+    width: 3px;
+    height: 36px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: gray;
+    border: 1px solid #6a6a6a;
+}
+
+.b-btn3 {
+    position: absolute;
+    top: 157px;
+    left: 257px;
+    width: 3px;
+    height: 36px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: gray;
+    border: 1px solid #6a6a6a;
+}
+
+.b-btn4 {
+    position: absolute;
+    top: 113px;
+    left: 24px;
+    width: 2px;
+    height: 35px;
+    border-radius: 10px 0px 0px 10px;
+    background-color: gray;
+    border: px solid #6a6a6a;
+}
+
+.b-cam {
+    position: absolute;
+    top: 20px;
+    left: 56px;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    background-color: black;
+    border: 3px solid #f4f4f4;
+}
+
+.b-cam2 {
+    position: absolute;
+    top: 27px;
+    left: 63px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #0f0f69;
+    border: 4px solid #404040;
+}
+
+.b-cam3 {
+    position: absolute;
+    top: 35px;
+    left: 69px;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background-color: #3838fc;
+}
+
+.b-sensor {
+    position: absolute;
+    top: 31px;
+    left: 88px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.b-flash {
+    position: absolute;
+    top: 26px;
+    left: 96px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #afaeae;
+    border: 2px solid #6f6f6f;
 }

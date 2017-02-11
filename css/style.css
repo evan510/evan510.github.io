@@ -3,26 +3,16 @@ body {
     background-size: cover;
 }
 
-.row {
-    width: 900px;
-    margin: auto;
+header .box {
+    background-image: url(https://source.unsplash.com/1366x768?night);
+    height: 300px;
 }
 
-header .box1 {
-    background-image: url(https://source.unsplash.com/1366x768?);
-    height: 250px;
-    width: 100%;
-    float: left;
-}
-
-header .h1 {
+.row .h1 {
     text-align: center;
     color: white;
     font-size: 30px;
-    font: left;
 }
-
-.col-12 img {}
 
 ul>li {
     width: 180px;

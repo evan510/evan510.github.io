@@ -1,0 +1,26 @@
+[class^="col-"] {
+    border: 2px solid yellow;
+}
+
+.container {
+    width: calc(100%*10/12);
+}
+
+.row img {
+    width: 100%;
+}
+
+.row h1 {
+    font-size: 22px;
+    color: silver;
+}
+
+.row p {
+    font-size: 16px;
+    color: pink;
+}
+
+h1,
+p {
+    vertical-align: bottom;
+}

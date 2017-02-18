@@ -9,7 +9,7 @@
     background-size: 500px;
     border: 1px solid #848484;
     margin: 0px auto;
-    background-color: white;
+    --background-color: white;
 }
 
 .iphone-back {

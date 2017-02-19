@@ -1,0 +1,24 @@
+.jumbotron {
+    color: blue;
+    text-align: center;
+    background-image: url(http://source.unsplash.com/1000x800);
+    background-size: cover;
+}
+
+.jumbotron h1 {
+    font-size: 50px;
+    color: white;
+}
+
+
+/*加上!important; 表示強制修改繼承*/
+
+.navbar {
+    color: darkblue;
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+body{
+    padding-top: 50px;
+}

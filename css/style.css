@@ -3,9 +3,19 @@ body {
     background-size: cover;
 }
 
-header .box {
-    background-image: url(https://source.unsplash.com/1366x768?night);
+header {
+    background-color: gray;
+    opacity: 0.7;
     height: 300px;
+}
+
+.box H1 {
+    font-size: 60px;
+    font-family: fantasy;
+    text-align: center;
+    color: darkblue;
+    position: relative;
+    top: 90px;
 }
 
 .container {
@@ -20,13 +30,10 @@ header .box {
 
 ul>li {
     width: 180px;
+    height: 30px;
     display: inline-block;
     text-align: center;
     font-weight: 800;
-}
-
-ul a:hover {
-    background-color: gray;
 }
 
 li a {
@@ -34,6 +41,12 @@ li a {
     font-family: cursive;
     text-decoration: none;
     color: white;
+    position: relative;
+    top: 2px;
+}
+
+li:hover {
+    background-color: #343434;
 }
 
 jumbotron {

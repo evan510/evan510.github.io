@@ -2,6 +2,18 @@
     box-sizing: border-box;
 }
 
+.apple {
+    position: absolute;
+    right: 0;
+    top: 150px;
+    height: 500px;
+    width: 300px;
+}
+
+.apple img {
+    width: 100%;
+}
+
 .iphone {
     position: relative;
     height: 500px;
@@ -17,7 +29,6 @@
     height: 500px;
     width: 300px;
     background-size: 500px;
-    border: 1px solid;
     margin: 0 auto;
 }
 
@@ -147,16 +158,6 @@
     border-radius: 10px;
     background-color: #4e4b4b;
     border: 2px solid #848383;
-}
-
-.test {
-    position: absolute;
-    top: 25px;
-    left: 180px;
-    width: 50px;
-    height: 20px;
-    -background-color: green;
-    color: red;
 }
 
 .row P {
@@ -334,3 +335,97 @@ column h1:hover {
     background-color: #afaeae;
     border: 2px solid #6f6f6f;
 }
+
+
+/* apple logo有空再畫
+.logo0 {
+    position: absolute;
+    top: 106px;
+    left: 163px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px 0px 50px 0px;
+    background-color: #afaeae;
+    overflow: hidden;
+}
+
+.logo {
+    position: absolute;
+    top: 136px;
+    left: 136px;
+    width: 60px;
+    height: 50px;
+    border-radius: 30;
+    background-color: white;
+    overflow: hidden;
+}
+
+.logo1 {
+    position: relative;
+    top: -4px;
+    left: px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px 30px 40px 40px;
+    background-color: #afaeae;
+}
+
+.logo2 {
+    position: absolute;
+    top: 6px;
+    left: 46px;
+    width: 30px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: white
+}
+
+.logo3 {
+    position: absolute;
+    top: 126px;
+    left: 145px;
+    width: 40px;
+    height: 10px;
+    border-radius: ;
+    background-color: white;
+    overflow: hidden;
+}
+
+.logo4 {
+    position: relative;
+    top: 4px;
+    left: px;
+    width: 20px;
+    height: 22px;
+    border-radius: 30px 30px 10px 10px;
+    background-color: #afaeae;
+}
+
+.logo6 {
+   position: relative;
+    top: -19px;
+    left:19px;
+    width: 22px;
+    height: 20px;
+    border-radius: 30px 30px 10px 10px;
+    background-color: #afaeae;
+}
+
+.apple-body-top-left {
+    height: 15px;
+    width: 65px;
+    z-index: 4;
+    background-color: white;
+    overflow: hidden;
+}
+
+.apple-body-top-left-inside {
+    border-radius: 50%;
+    height: 75px;
+    margin-top: 8px;
+    margin-left: -17px;
+    width: 82px;
+    background-color: red;
+}
+
+apple logo有空再畫*/

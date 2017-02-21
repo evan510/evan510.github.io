@@ -336,6 +336,18 @@ column h1:hover {
     border: 2px solid #6f6f6f;
 }
 
+.log {
+    position: absolute;
+    top: 350px;
+    left: 96px;
+    width: 96px;
+    height: 20px;
+    color: #a39c9c;
+    font-size: 20px;
+    font-weight: 800px;
+    text-align: center;
+}
+
 
 /* apple logo有空再畫
 .logo0 {
